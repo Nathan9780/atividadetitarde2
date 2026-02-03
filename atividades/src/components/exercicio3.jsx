@@ -20,7 +20,8 @@ function exercicio3() {
     >
       <h2>Resultado Estoque</h2>
       <button onClick={mostrarInsumo}>Mostrar Insumo </button>
-      <div id="nome-insumo" class="foto-insumo"></div>
+      <h3 id="nome-insumo" style={{ marginTop: "10px" }}></h3>
+      <img id="foto-insumo" alt="Insumo" style={{ marginTop: "10px" }} />
     </div>
   );
 }
