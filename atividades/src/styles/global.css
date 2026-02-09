@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Times New Roman", Times;
+  color: darkblue;
+  font-size: larger;
+  background-color: whitesmoke;
+}
+
+.perso-banners {
+  font-family: "Times New Roman", Times;
+  color: darkblue;
+  background-color: whitesmoke;
+}
+.buttons {
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+}

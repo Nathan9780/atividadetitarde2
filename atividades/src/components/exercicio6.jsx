@@ -11,7 +11,9 @@ function Exercicio6() {
   return (
     <div style={{ padding: "20", border: "2px solid #ccc", marginTop: "10px" }}>
       <h2>Calculadora de Total de Produtos</h2>
-      <button onClick={calculartotal}>Calcular Total</button>
+      <button onClick={calculartotal} className="buttons">
+        Calcular Total
+      </button>
       <div
         id="total-produtos"
         style={{ margintop: "10px", fontWeight: "bold" }}

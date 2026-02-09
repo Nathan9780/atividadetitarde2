@@ -19,7 +19,9 @@ function exercicio3() {
       style={{ padding: "20px", border: "2px solid #ccc", marginTop: "10px" }}
     >
       <h2>Resultado Estoque</h2>
-      <button onClick={mostrarInsumo}>Mostrar Insumo </button>
+      <button onClick={mostrarInsumo} className="buttons">
+        Mostrar Insumo{" "}
+      </button>
       <h3 id="nome-insumo" style={{ marginTop: "10px" }}></h3>
       <img id="foto-insumo" alt="Insumo" style={{ marginTop: "10px" }} />
     </div>

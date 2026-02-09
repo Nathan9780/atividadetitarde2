@@ -17,7 +17,9 @@ function Exercicio4() {
       >
         Status: Normal
       </div>
-      <button onClick={DestacarAtraso}>Destacar Atraso</button>
+      <button onClick={DestacarAtraso} className="buttons">
+        Destacar Atraso
+      </button>
     </div>
   );
 }

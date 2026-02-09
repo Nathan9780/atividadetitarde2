@@ -11,7 +11,10 @@ function Exercicio1() {
     <div style={{ padding: "20px", border: "1px solid #ccc" }}>
       <h2>Controle de Entregas</h2>
       <p id="status-entrega">Aguardando Entrega ...</p>
-      <button onClick={atualizarStatus}> Atualizar Status</button>
+      <button onClick={atualizarStatus} className="buttons">
+        {" "}
+        Atualizar Status
+      </button>
     </div>
   );
 }
